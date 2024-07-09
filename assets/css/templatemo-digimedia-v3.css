@@ -184,7 +184,7 @@ body {
 .section-heading h6 {
   font-size: 15px;
   font-weight: 700;
-  color: #4da6e7;
+  color: #F2E0D4;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
@@ -919,7 +919,7 @@ Banner Style
   text-transform: capitalize;
   font-size: 20px;
   font-weight: 700;
-  color: #4da6e7;
+  color: #F90568;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
@@ -1395,6 +1395,7 @@ Free Quote
 
 .free-quote {
   background-image: url(../images/quote-bg-v3.jpg);
+  /* background-image: url(../images/backgroundImg.png); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1402,7 +1403,7 @@ Free Quote
   text-align: center;
   position: relative;
   z-index: 2;
-  margin-top: 130px;
+  /* margin-top: 130px; */
 }
 
 .free-quote .section-heading {
@@ -1817,6 +1818,8 @@ form#contact #map iframe {
 
 .fill-form .info-post {
   margin-bottom: 20px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
 }
 
 .fill-form .icon {
@@ -1930,6 +1933,14 @@ footer p {
 footer p a {
   color: #fff;
   transition: all .5s;
+}
+
+.formSubmit{
+  margin: 0 auto;
+}
+
+.sendButton {
+  margin: 0 auto;
 }
 
 /* 
