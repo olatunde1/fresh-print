@@ -957,10 +957,11 @@ About Style
 */
 
 #about {
-  padding-top: 130px;
+  padding-top: 80px;
 }
 
 .about-left-image img {
+  border-radius: 50px 50px 30px 5px;
   margin-right: 45px;
 }
 
@@ -1406,6 +1407,10 @@ Free Quote
   position: relative;
   z-index: 2;
   /* margin-top: 130px; */
+}
+
+.free-quote img{
+  border-radius: 50px 100px 50px 100px
 }
 
 .free-quote .section-heading {
@@ -2093,6 +2098,10 @@ responsive
     margin-left: 0px;
     border-bottom-left-radius: 40px;
     border-top-right-radius: 0px;
+  }
+
+  .free-quote img{
+    border-radius: 0;
   }
   .blog-posts {
     margin-left: 0px;
